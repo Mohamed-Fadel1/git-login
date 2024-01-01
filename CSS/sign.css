@@ -1,0 +1,30 @@
+* {
+    box-sizing:  border-box;
+}
+body {
+    background-color: #24353f;
+    color: white;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+input {
+    background-color: #24353f !important;
+color: #fff !important;
+}
+input::placeholder {
+    color: white !important;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+
+.hamada a {
+    text-decoration:  none;
+    color: #fff;
+}
+

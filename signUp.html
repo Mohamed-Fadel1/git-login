@@ -1,0 +1,65 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="group text-center py-5 w-75 m-auto">
+            <h1>Smart Login System</h1>
+            <div class="input my-3 ">
+                <input id="logInEmail" type="text" class="form-control  w-75 m-auto mb-3 p-2" placeholder="Enter your email">
+                <input id="logInPassword" type="password" class="form-control w-75 m-auto mb-3 p-2 px-3" placeholder="Enter your password">
+            </div>
+            <p id="required" class="text-center text-danger d-none">All inputs are required</p>
+            <button onclick="logInUser()" id="logInbtn" class="btn btn-outline-info w-75 my-3 p-2">Login</button>
+            <div class="hamada d-flex justify-content-center">
+                <p>Don’t have an account?</p>
+                <a href="signup.html"> Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <script src="./script/main.js"></script>
+</body>
+</html>
+
+
+
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/sign.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="group text-center py-5 w-75 m-auto">
+            <h1>Smart Login System</h1>
+            <div class="input my-3 ">
+                <input id="inputName" type="text" class="form-control w-75 m-auto mb-3 p-2" placeholder="Enter your Name">
+                <input id="inputEmail" type="email" class="form-control w-75 m-auto mb-3 p-2 px-3" placeholder="Enter your email">
+                <input id="inputPassword" type="password" class="form-control w-75 m-auto mb-3 p-2" placeholder="Enter your password">
+            </div>
+            <h3  class="text-warning d-none" id="exist">This account already exists!</h3>
+            <h5 id="alertMessage" class=" text-success d-none">Success</h5>
+            <p id="alertRequired" class="text-center text-danger d-none">All inputs are required</p>
+            <button class="btn btn-outline-info w-75 my-3 p-2" id="signUpBtn">Sign Up</button>
+            <div class="hamada d-flex justify-content-center">
+                <p>You have an account?</p>
+                <a href="./index.html"> Sign In</a>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/signup.js"></script>
+</body>
+</html>
